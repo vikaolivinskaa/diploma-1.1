@@ -4,9 +4,9 @@
 * {
   margin: 0;
 }
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 .nav-ul {
   display: flex;
@@ -35,6 +35,7 @@ a{
   padding-bottom: 30px;
 }
 .container-1-button {
+  
   margin-left: 140px;
   margin-bottom: 125px;
   background-color: #c85312;
@@ -69,17 +70,21 @@ a{
   margin-right: 10px;
 }
 .card-pie-h {
+    padding-top: 20px;
+    padding-left: 10px;
   text-align: center;
   font-size: 16px;
   color: #fff;
   font-weight: 500;
+  padding-right: 40px;
 }
 
 .card-pie-button {
   background: #c85312;
+  margin-top: 30px;
   color: #fff;
   font-weight: 900;
-  margin-left: 15%;
+  margin-left: 10%;
   width: 79px;
   height: 34px;
 }
@@ -226,10 +231,10 @@ a{
   list-style: none;
   padding-left: 70px;
 }
-.div-li-h{
- font-weight: 200;
-font-size: 40px;
-color: #fff;
+.div-li-h {
+  font-weight: 200;
+  font-size: 40px;
+  color: #fff;
 }
 
 .div-li-p {
@@ -237,4 +242,79 @@ color: #fff;
   font-size: 24px;
   color: #fff;
   padding: 10px;
+}
+.window {
+  background-image: url(./img/window/window-fon.png);
+  filter: blur(3px);
+  width: 100%;
+  height: 100px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 722px;
+
+  padding-bottom: 50px;
+}
+.window-b {
+  left: 50%;
+  top: 45%;
+  padding-top: 50px;
+  position: absolute;
+}
+.window-border {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  border: 2px solid;
+  background-color: #fff;
+  padding-left: 60px;
+  border-radius: 50px;
+  width: 990px;
+  height: 600px;
+
+  padding-top: 50px;
+}
+.window-h {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  font-weight: 200;
+  font-size: 48px;
+  color: #000;
+}
+.window-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.window-input {
+  width: 350px;
+  height: 42px;
+  font-size: 30px;
+}
+.window-button {
+  margin-top: 50px;
+  border-radius: 17px;
+  width: 207px;
+  height: 57px;
+  background: #b47b48;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+button{
+width: 100px;
+  height: 40px;
+}
+.window-img {
+  padding-top: 80px;
+  width: 450px;
+}
+.window-img-t{
+
+     width: 398px;
+}
+.window-right {
+  padding-right: 60px;
 }
